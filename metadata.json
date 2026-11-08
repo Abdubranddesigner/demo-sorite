@@ -1,0 +1,6 @@
+{
+  "name": "Soreti Loyalty & Gift Vouchers",
+  "description": "Luxury spa loyalty programme and bespoke gift vouchers for Soreti sanctuaries in Addis Ababa and Nairobi.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

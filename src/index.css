@@ -1,0 +1,49 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-serif: 'Playfair Display', Georgia, Cambria, "Times New Roman", Times, serif;
+    --font-sans: 'Lato', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    --color-primary: #4D2177;
+    --color-accent: #B78F2E;
+    --color-surface: #FBF6EC;
+    --color-background: #FBF9F6;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    font-family: var(--font-sans);
+    background-color: #FBF9F6;
+    color: #4D2177;
+  }
+}
+
+.font-display {
+  font-family: var(--font-serif);
+}
+
+.font-body {
+  font-family: var(--font-sans);
+}
+
+.soreti-card {
+  background-color: #FBF6EC;
+  border: 1px solid rgba(183, 143, 46, 0.38);
+  transition: transform 180ms cubic-bezier(0.16, 1, 0.3, 1), box-shadow 180ms cubic-bezier(0.16, 1, 0.3, 1), border-color 180ms ease;
+}
+
+.soreti-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 28px -8px rgba(77, 33, 119, 0.08);
+  border-color: #B78F2E;
+}
+
+.soreti-voucher-preview {
+  background: linear-gradient(125deg, #FBF9F6 0%, #FBF6EC 62%, #F4E9CE 100%);
+  border: 1px solid #B78F2E;
+}
+
+
